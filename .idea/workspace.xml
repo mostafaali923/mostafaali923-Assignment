@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3e72575-3158-4e05-916e-9ece100a70ae" name="Changes" comment="commit" />
+    <list default="true" id="e3e72575-3158-4e05-916e-9ece100a70ae" name="Changes" comment="commit ad">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/LetterSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +44,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="day4" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="day5" />
@@ -76,10 +92,13 @@
     "Application.Cashier.executor": "Run",
     "Application.ConditionalStatement.executor": "Run",
     "Application.EmployeeGrossPay.executor": "Run",
+    "Application.LetterSearch.executor": "Run",
+    "Application.StudentAverageScore.executor": "Run",
     "Application.StudentAvrageScore.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "day4",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -115,7 +134,23 @@
       <option name="project" value="LOCAL" />
       <updated>1780842487671</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <option name="closed" value="true" />
+      <created>1780842807606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780842807606</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit ad">
+      <option name="closed" value="true" />
+      <created>1780842844121</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780842844121</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,7 +166,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="commit ad" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit ad" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
