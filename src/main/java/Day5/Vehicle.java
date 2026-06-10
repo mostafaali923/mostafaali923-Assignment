@@ -13,13 +13,18 @@ public class Vehicle {
         this.year = year;
 
 
-        System.out.println("Brand: " + brand);
-        System.out.println("Color: " + color);
-        System.out.println("Year: " + year);
+
     }
 
     public void start() {
         System.out.println("Vehicle is starting");
 
+    }
+
+    public void print() {
+
+        System.out.println("Brand: " + brand);
+        System.out.println("Color: " + color);
+        System.out.println("Year: " + year);
     }
 }
