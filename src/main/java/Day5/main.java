@@ -29,11 +29,13 @@ public class main {
 //        d.bark();
 
         Car car = new Car();
-        car.start();
-        car.hunk();
+        car.start(); // inheritied method from  veichal
+        car.hunk();  // car own method
+        car.print(); //     inherited method from veichal
 
-        Bike bike = new Bike("Yamaha", "blue", 2020);
+        Bike bike = new Bike();
         bike.start();
+        bike.ringBell();
 
     }
 }
