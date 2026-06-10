@@ -15,9 +15,11 @@ public class BankAccount {
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
-            System.out.println("Deposited: " + amount);
-        } else {
-            System.out.println("Deposit amount must be positive.");
         }
+    }
+
+    public double getBalance() {
+        System.out.println("Your balance is: " + balance);
+        return balance;
     }
 }
