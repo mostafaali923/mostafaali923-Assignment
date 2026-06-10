@@ -49,5 +49,7 @@ public class main {
         for (Shape shape : shapes) {
 
             shape.draw();
+            shape.hamda();
                   }
+
     }}

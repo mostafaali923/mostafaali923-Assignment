@@ -6,4 +6,7 @@ public class Shape {
     {
         System.out.println("This is the Shape draw");
     }
+    public void hamda() {
+        System.out.println("This is Hamda");
+    }
 }
