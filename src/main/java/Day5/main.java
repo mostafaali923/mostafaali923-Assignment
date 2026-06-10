@@ -28,14 +28,26 @@ public class main {
 //        d.eat();
 //        d.bark();
 
-        Car car = new Car();
-        car.start(); // inheritied method from  veichal
-        car.hunk();  // car own method
-        car.print(); //     inherited method from veichal
+//        Car car = new Car();
+//        car.start(); // inheritied method from  veichal
+//        car.hunk();  // car own method
+//        car.print(); //     inherited method from veichal
+//
+//        Bike bike = new Bike();
+//        bike.start();
+//        bike.ringBell();
 
-        Bike bike = new Bike();
-        bike.start();
-        bike.ringBell();
+//        MathUtils mathUtils = new MathUtils();
+//        mathUtils.add(10, 20);
+//        mathUtils.add(10, 20.6);
 
-    }
-}
+//        Dog dog = new Dog();
+//        dog.sound();
+
+        Shape[] shapes = {new Circle(), new Square(), new Triangle()};
+
+        for (Shape shape : shapes) {
+
+            shape.draw();
+                  }
+    }}

@@ -6,9 +6,14 @@ public class Dog extends Animal {
         System.out.println("This animal barks");
     }
 
-    @Override // this tells java , we will overidd a method from the parent class
+    @Override // this tells java , we will overidde a method from the parent class
 
     public void eat() {
         System.out.println("This dog eats bones.");
+    }
+
+    @Override
+    public void sound() {
+        System.out.println("This dog barks");
     }
 }

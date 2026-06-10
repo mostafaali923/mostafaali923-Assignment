@@ -11,4 +11,8 @@ public class Animal {
         System.out.println("Animal is eating food");
 
     }
+    // Runtime Polymorphism ( Method overrloading ) -> Polymorphism
+    public void sound() {
+        System.out.println("This animal sound");
+    }
 }
