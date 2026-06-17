@@ -1,8 +1,8 @@
-package Day6;
-
-public class Main {
-
-    public static void main(String[] args) {
+//package Day6;
+//
+//public class Main {
+//
+//    public static void main(String[] args) {
 //        Dog dog = new Dog();
 //        Cat cat = new Cat();
 //        Cow cow = new Cow();
@@ -31,15 +31,15 @@ public class Main {
 //        v2.stop();
 
 
-        Calculator calculator = new Calculator();
+//        Calculator calculator = new Calculator();
+//
+//        calculator.add(1,2);
+//        calculator.add(3,4,5);
+//        double x = calculator.add (5.6 , 7.6);
+//
+//        System.out.println(x);
+//
 
-        calculator.add(1,2);
-        calculator.add(3,4,5);
-        double x = calculator.add (5.6 , 7.6);
-
-        System.out.println(x);
-
-
-
-    }
-}
+//
+//    }
+//}
