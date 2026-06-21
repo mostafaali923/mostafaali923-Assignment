@@ -168,7 +168,12 @@ ArrayList LinkedList Vector HashSet LinkedHashSet TreeSet LinkedList PriorityQue
         System.out.println(q);
         System.out.println(q.size());
         System.out.println(q.remove()); // يحذف اول عنصر 1
+        System.out.println(q.remove()); // 2
+        System.out.println(q.peek());//   snows duplicate of head without removing it
+        System.out.println(q.poll()); //   shows first element
 
+        q.add("Testing");
+        System.out.println(q);
     }
 
 }
