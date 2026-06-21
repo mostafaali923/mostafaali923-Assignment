@@ -52,9 +52,9 @@ ArrayList LinkedList Vector HashSet LinkedHashSet TreeSet LinkedList PriorityQue
 //        ListDemo();
 
 //        vectorDemo();
+//        queue();
 
-
-        queue();
+        hashMapDemo();
 
     }
 
@@ -151,7 +151,7 @@ ArrayList LinkedList Vector HashSet LinkedHashSet TreeSet LinkedList PriorityQue
         System.out.println(stack.pop());
 
     }
-    // Linked list - Priorty Queue
+    // Linked list - Priority Queue
 
     static void queue() {
 
@@ -169,11 +169,44 @@ ArrayList LinkedList Vector HashSet LinkedHashSet TreeSet LinkedList PriorityQue
         System.out.println(q.size());
         System.out.println(q.remove()); // يحذف اول عنصر 1
         System.out.println(q.remove()); // 2
-        System.out.println(q.peek());//   snows duplicate of head without removing it
-        System.out.println(q.poll()); //   shows first element
+        System.out.println(q.peek());//   shows head without removing it
+        System.out.println(q.poll()); //   shows first element and remove it
 
         q.add("Testing");
         System.out.println(q);
+
+        q.addAll(List.of("A", "B", "C"));
+        System.out.println(q);
+    }
+
+    static void hashMapDemo() {
+
+        Map<Integer, String> map = new HashMap<>();
+
+        map.put(1, "cairo");
+        map.put(2, "sohag");
+        map.put(3, "Berlin");
+        map.put(4, "Berlin");
+        map.put(5, "Dahab");
+        System.out.println(map);
+
+        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+            System.out.println(entry.getValue());
+        }
+        System.out.println(map.size());
+        System.out.println(map.get(2));
+        System.out.println(map.remove(2));
+        System.out.println(map.isEmpty());
+        System.out.println(map.containsValue("Dahab"));
+        System.out.println(map.containsKey(3));
+
+        map.forEach((k, v) -> System.out.println(k + " " + v));
+
+        Map<String, Double> yara = new HashMap<>();
+        yara.put("cairo", 1.0);
+        yara.put("cairo", 1.0);
+
     }
 
 }
